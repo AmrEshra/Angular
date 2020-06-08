@@ -5,5 +5,7 @@ var Customer = /** @class */ (function () {
     }
     return Customer;
 }());
-var myustomer = new Customer("Amr", "Ali");
-console.log(myustomer);
+var myCustomer = new Customer("Amr", "Ali");
+var myCustomer2 = new Customer("Ola", "Magdy");
+console.log(myCustomer);
+console.log(myCustomer2);

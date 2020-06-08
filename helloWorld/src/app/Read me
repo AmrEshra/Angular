@@ -1,0 +1,5 @@
+#to compile
+tsc --noEmitOnError file.ts
+ 
+#to run
+node file.js

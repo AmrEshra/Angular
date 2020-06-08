@@ -1,7 +1,7 @@
 class Customer {
 
-    firstName: string;
-    lastName: string;
+    private firstName: string;
+    private lastName: string;
 
     constructor(firstName: string, lastName: string) {
         this.firstName = firstName;
@@ -10,5 +10,7 @@ class Customer {
 
 }
 
-let myustomer = new Customer("Amr", "Ali");
-console.log(myustomer);
+let myCustomer = new Customer(`Amr`, `Ali`);
+let myCustomer2 = new Customer(`Ola`, `Magdy`);
+console.log(myCustomer);
+console.log(myCustomer2);
