@@ -1,4 +1,4 @@
-class Customer {
+export class Customer {
 
     firstName: string;
     lastName: string;
@@ -13,7 +13,7 @@ class Customer {
 
 }
 
-let myCustomer = new Customer(`Amr`, `Ali`);
-let myCustomer2 = new Customer(`Ola`, `mora`);
-console.log(myCustomer);
-console.log(myCustomer2);
+// let myCustomer = new Customer(`Amr`, `Ali`);
+// let myCustomer2 = new Customer(`Ola`, `mora`);
+// console.log(myCustomer);
+// console.log(myCustomer2);

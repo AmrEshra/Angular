@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var Customer = /** @class */ (function () {
     // constructor(){
     // }
@@ -7,7 +9,8 @@ var Customer = /** @class */ (function () {
     }
     return Customer;
 }());
-var myCustomer = new Customer("Amr", "Ali");
-var myCustomer2 = new Customer("Ola", "mora");
-console.log(myCustomer);
-console.log(myCustomer2);
+exports.Customer = Customer;
+// let myCustomer = new Customer(`Amr`, `Ali`);
+// let myCustomer2 = new Customer(`Ola`, `mora`);
+// console.log(myCustomer);
+// console.log(myCustomer2);
