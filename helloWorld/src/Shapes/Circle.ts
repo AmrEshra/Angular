@@ -10,4 +10,8 @@ export class Circle extends Shape{
     getInformation(): string {
         return super.getInformation() + `, radius = ${this.radius}`;
     }
+
+    calculateArea(): number {
+        return Math.PI * Math.pow(this.radius, 2) ;
+    }
 }
